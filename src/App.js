@@ -1,10 +1,10 @@
-import Test from "./Test";
+import Header from "./layouts/Header";
 
 function App() {
   return (
-    <>
-      <Test/>
-    </>
+    <div className="container mx-auto">
+      <Header/>
+    </div>
   );
 }
 
