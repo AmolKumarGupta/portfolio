@@ -15,9 +15,9 @@ function Header(){
                     </svg>
                 </a>
                 <nav className={`bg-yellow-50 md:bg-transparent ${navToggle?'hidden':''} w-full md:w-auto h-[100vh] md:h-auto text-2xl text-center md:text-base md:text-left absolute md:relative top-[50%] md:top-0 left-[50%] md:left-0 -translate-y-[50%] md:transform-none -translate-x-[50%] md:ml-auto flex md:flex flex-col md:flex-row md:flex-wrap md:items-center justify-center space-y-4 md:space-y-0 md:space-x-8`}>
-                    <a className="block hover:text-gray-900">Home</a>
-                    <a className="block hover:text-gray-900">Work</a>
-                    <a className="block hover:text-gray-900">Project</a>
+                    <a className="block hover:text-gray-900" href="#">Home</a>
+                    <a className="block hover:text-gray-900" href="#">Work</a>
+                    <a className="block hover:text-gray-900" href="#">Project</a>
                 </nav>
                 {/* <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
                 </button> */}
