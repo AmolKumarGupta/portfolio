@@ -1,9 +1,9 @@
-import Header from "./layouts/Header";
+import Front from "./components/Front";
 
 function App() {
   return (
     <div className="container mx-auto">
-      <Header/>
+      <Front/>
     </div>
   );
 }

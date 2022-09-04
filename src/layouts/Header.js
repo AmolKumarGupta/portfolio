@@ -14,7 +14,7 @@ function Header(){
                         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                     </svg>
                 </a>
-                <nav className={`bg-yellow-50 md:bg-transparent ${navToggle?'hidden':''} w-full md:w-auto h-[100vh] md:h-auto text-2xl text-center md:text-base md:text-left absolute md:relative top-[50%] md:top-0 left-[50%] md:left-0 -translate-y-[50%] md:transform-none -translate-x-[50%] md:ml-auto flex md:flex flex-col md:flex-row md:flex-wrap md:items-center justify-center space-y-4 md:space-y-0 md:space-x-8`}>
+                <nav className={`animate-background md:animate-none ${navToggle?'hidden':''} w-full md:w-auto h-[100vh] md:h-auto text-2xl text-center md:text-base md:text-left absolute md:relative top-[50%] md:top-0 left-[50%] md:left-0 -translate-y-[50%] md:transform-none -translate-x-[50%] md:ml-auto flex md:flex flex-col md:flex-row md:flex-wrap md:items-center justify-center space-y-4 md:space-y-0 md:space-x-8`}>
                     <a className="block hover:text-gray-900" href="#top">Home</a>
                     <a className="block hover:text-gray-900" href="#top">Work</a>
                     <a className="block hover:text-gray-900" href="#top">Project</a>
