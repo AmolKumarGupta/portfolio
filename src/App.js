@@ -1,22 +1,18 @@
 import Front from "./components/Front";
+import Project from "./components/Project";
 import useUserProvider from "./utils/hooks/Provider";
-import Test from "./Test";
 
 function App() {
-  const user = useUserProvider('amolkumargupta');
-
-  const arr = Object.entries(user).map(([key, value]) => {
-    return <li key={key}>{key}: {value}</li>;
-  })
+  const repos = useUserProvider();
 
   return (
     <>
     <div className="mx-auto">
       <Front/>
     </div>
-    <ul>
-      {arr}
-    </ul>
+    <div className="container mx-auto">
+      <Project repos={repos}/>
+    </div>
     </>
   );
 }
