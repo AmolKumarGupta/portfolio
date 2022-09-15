@@ -20,3 +20,25 @@ export default function useUserProvider() {
 
     return user;
 }
+
+
+export function useQuoteProvider() {
+    const [quote, setQuote] = useState(null);
+
+    useEffect(()=>{
+        // console.log('quote: effect');
+        let signal =  true;
+
+        if(signal) {
+            fetch('https://api.quotable.io/random')
+            .then( (res)=>{return res.json()} )
+            .then( (data)=>{setQuote(data)} )
+        }
+        
+        return ()=>{
+            signal=false;
+        }
+    },[]);
+
+    return quote;
+}

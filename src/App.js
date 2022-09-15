@@ -1,5 +1,6 @@
 import Front from "./components/Front";
 import Project from "./components/Project";
+import Quote from "./components/Quote";
 import useUserProvider from "./utils/hooks/Provider";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Front/>
     </div>
     <div className="container mx-auto">
+      <Quote/>
       <Project repos={repos}/>
     </div>
     </>
