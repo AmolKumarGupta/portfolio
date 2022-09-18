@@ -1,17 +1,10 @@
-import { useMemo } from "react";
 
 const Test = ()=>{
-
-    const data = useMemo(async ()=>{
-        return await fetch(process.env.REACT_APP_API + 'users/amolkumargupta')
-                .then( (res)=> res.json())
-    },[]);
-
-    
-
-    console.log(data)
     return (
         <>
+        <div className="container mx-auto p-8 text-center text-2xl">
+            Coming Soon!
+        </div>
         </>
     );
 };
