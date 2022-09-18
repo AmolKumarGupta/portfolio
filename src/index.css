@@ -7,6 +7,7 @@
         @apply scroll-smooth;
     }
     body{
-        @apply bg-slate-50;
+        @apply bg-slate-50 selection:bg-[#7689de] selection:text-white;
+        font-family: 'Bitter', serif;
     }
 }

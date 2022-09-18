@@ -29,7 +29,7 @@ const Project = ({repos})=> {
 
     return (
         <>
-        <h3 id="projects" className="text-2xl font-bold mx-6 py-6">Projects</h3>
+        <h3 id="projects" className="text-2xl text-[#7689de] font-bold mx-6 py-6">Projects</h3>
         <main className=" flex flex-wrap justify-center gap-3 mx-4 mb-8">
             { loading || listItems }
         </main>

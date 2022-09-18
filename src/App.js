@@ -19,7 +19,7 @@ function App() {
         <div className="container mx-auto">
         <Quote/>
         <Project repos={repos}/>
-      </div>
+        </div>
       }/>
 
       <Route path="/test" element={<Test/>} />
