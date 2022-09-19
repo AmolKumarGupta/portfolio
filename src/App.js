@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import Front from "./components/Front";
+import Home from "./components/home/Home";
 import Project from "./components/Project";
 import Quote from "./components/Quote";
 import Test from "./Test";
@@ -21,7 +22,7 @@ function App() {
         <Project repos={repos}/>
         </div>
       }/>
-
+      <Route path="/home" element={<Home/>} />
       <Route path="/test" element={<Test/>} />
     </Routes>
     </>
