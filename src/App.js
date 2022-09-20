@@ -3,6 +3,7 @@ import Front from "./components/Front";
 import Home from "./components/home/Home";
 import Project from "./components/Project";
 import Quote from "./components/Quote";
+import Footer from "./layouts/Footer";
 import Test from "./Test";
 import useUserProvider from "./utils/hooks/Provider";
 
@@ -16,15 +17,16 @@ function App() {
     </div>
 
     <Routes>
-      <Route index element={
+      <Route index element={<Home/>} />
+      <Route path="/projects" element={
         <div className="container mx-auto">
         <Quote/>
         <Project repos={repos}/>
         </div>
       }/>
-      <Route path="/home" element={<Home/>} />
       <Route path="/test" element={<Test/>} />
     </Routes>
+    <Footer/>
     </>
   );
 }

@@ -16,8 +16,8 @@ function Header(){
 
                 </div>
                 <nav className={`animate-background md:animate-none ${navToggle?'hidden':''} w-full md:w-auto h-[100vh] md:h-auto text-2xl text-center md:text-base md:text-left absolute md:relative top-[50%] md:top-0 left-[50%] md:left-0 -translate-y-[50%] md:transform-none -translate-x-[50%] md:ml-auto flex md:flex flex-col md:flex-row md:flex-wrap md:items-center justify-center space-y-4 md:space-y-0 md:space-x-8`}>
-                    <a className="block hover:text-[#7689de]" href="/home" onClick={(e)=>{setNavToggle(true)}}>Home</a>
-                    <a className="block hover:text-[#7689de]" href="/" onClick={(e)=>{setNavToggle(true)}}>Project</a>
+                    <a className="block hover:text-[#7689de]" href="/" onClick={(e)=>{setNavToggle(true)}}>Home</a>
+                    <a className="block hover:text-[#7689de]" href="/projects" onClick={(e)=>{setNavToggle(true)}}>Project</a>
                     <a className="block hover:text-[#7689de]" href="#top" onClick={(e)=>{setNavToggle(true)}}>Contact</a>
                 </nav>
                 {/* <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
