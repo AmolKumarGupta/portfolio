@@ -9,7 +9,7 @@ const Skill = ()=>{
             color: "[#2980b9]",
             description: "PHP was my first language. and I am currently learning Wordpress plugin",
             images: {
-                laravel: "https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg",
+                laravel: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg",
                 codeigniter: "https://raw.githubusercontent.com/devicons/devicon/master/icons/codeigniter/codeigniter-plain.svg",
                 wordpress: "https://raw.githubusercontent.com/devicons/devicon/master/icons/wordpress/wordpress-plain.svg"
             }
@@ -30,7 +30,7 @@ const Skill = ()=>{
             description: "CSS is one of my interesting subject. I loves Tailwind css.",
             images: {
                 bootstrap: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg",
-                tailwindcss: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
+                tailwindcss: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
             }
         },
         {
